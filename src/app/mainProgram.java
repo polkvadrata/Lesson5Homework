@@ -16,9 +16,9 @@ public class mainProgram {
             return;
         }
 
-        if (incomeAmount > 0 && incomeAmount <= 10000) {
+        if (incomeAmount <= 10000) {
             tax = incomeAmount * 0.025;
-        } else if (incomeAmount > 10000 && incomeAmount <= 25000) {
+        } else if (incomeAmount <= 25000) {
             tax = incomeAmount * 0.043;
         } else {
             tax = incomeAmount * 0.067;
